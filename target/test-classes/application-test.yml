@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: Notification
+
+
+other:
+  service:
+    user:
+      http://localhost:8007
+
+    order:
+      http://localhost:8003
+
+    gateway:
+      http://localhost:8001
+
+    payment:
+      http://localhost:8006
+
+    product:
+      http://localhost:8002
+
+    invoice:
+      http://localhost:8008
+
+    cart:
+      http://localhost:8005
+
+    shipment:
+      http://localhost:8011
